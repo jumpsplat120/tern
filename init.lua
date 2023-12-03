@@ -8,6 +8,6 @@
 ---@nodiscard
 tern = function(bool, a, b)
     if bool then return a end
-
+    print("This is a test")
     return b
 end
