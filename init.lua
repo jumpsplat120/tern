@@ -6,7 +6,7 @@
 ---@param b any The value to return if `bool` is falsey.
 ---@return any
 ---@nodiscard
-tern = function(bool, a, b)
+return function(bool, a, b)
     if bool then return a end
     
     return b
